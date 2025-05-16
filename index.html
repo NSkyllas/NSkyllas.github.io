@@ -1,97 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nomikos Skyllas | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nomikos Skyllas | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Nomikos Skyllas</h1>
-            <p>Climate & Ecological Data Scientist</p>
-            <a href="#contact" class="btn">Contact Me</a>
-        </div>
-    </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I’m Nomikos Skyllas, a climate and ecological data scientist with a background in geospatial analysis, remote sensing, and environmental modeling. My work focuses on how climate change is reshaping Arctic ecosystems, particularly through its effects on migratory birds and seasonal dynamics. I enjoy bridging the gap between ecological insight and data-driven methods — especially when it leads to practical or policy-relevant insights.</p>
-        </div>
-    </section>
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-content container">
+      <h1>Nomikos Skyllas</h1>
+      <p>Climate & Ecological Data Scientist</p>
+      <a href="N_Skyllas_CV.pdf" class="btn" download>Download CV</a>
+    </div>
+    <div class="scroll-down">&#x25BC;</div>
+  </section>
 
-    <section id="education">
-        <div class="container">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>MSc Marine Sciences</strong>, Utrecht University — 2016–2018</li>
-                <li><strong>BSc Food Science & Technology</strong>, Agricultural University of Athens — 2001–2006</li>
-            </ul>
-        </div>
-    </section>
+  <!-- NAVIGATION (optional floating menu or placeholder) -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <ul>
-                <li><strong>PhD Researcher – Climate Modeling & Arctic Migratory Birds</strong><br>
-                University of Groningen & KNMI (2021–2025)<br>
-                Modeled Arctic ecosystems using climate data and developed a seabird migration model using remote sensing and environmental constraints.</li>
-                <li><strong>MSc Thesis Supervisor – Arctic Climate Variability</strong><br>
-                KNMI (2020)<br>
-                Supervised research on climate-phytoplankton interactions using statistical modeling and Python.</li>
-                <li><strong>PhD Researcher – Microbial Networks</strong><br>
-                NIOZ (2018–2019)<br>
-                Analyzed microbial communities across gradients using network models and time series tools.</li>
-            </ul>
-        </div>
-    </section>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a climate and ecological data scientist with a background in geospatial analysis, remote sensing, and environmental modeling. My work focuses on how climate change is reshaping Arctic ecosystems, particularly migratory birds and seasonal dynamics.</p>
+    </div>
+  </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Seabird Flyway Model</strong>: Simulated long-distance migration patterns using wind, energy cost, and climate data.</li>
-                <li><strong>Green Wave Index</strong>: Estimated Arctic nutrient peaks using remote sensing and CMIP6 vegetation models.</li>
-                <li><strong>Arctic Climate Extremes</strong>: Analyzed trends in Arctic rainfall and snow cover under future climate scenarios.</li>
-            </ul>
-        </div>
-    </section>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <strong>PhD Researcher – Climate Modeling & Arctic Migratory Birds</strong><br>
+          University of Groningen & KNMI (2021–2025)<br>
+          Developed a seabird migration model and assessed long-term climate trends using Earth system models.
+        </li>
+        <li>
+          <strong>MSc Thesis Supervisor – Arctic Climate Variability</strong><br>
+          KNMI (2020)<br>
+          Supervised statistical modeling of climate-ecology interactions.
+        </li>
+        <li>
+          <strong>PhD Researcher – Microbial Networks</strong><br>
+          NIOZ (2018–2019)<br>
+          Modeled microbial community dynamics across environmental gradients.
+        </li>
+      </ul>
+    </div>
+  </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Python (Xarray, Pandas, Matplotlib, Scikit-learn)</li>
-                <li>GIS & Remote Sensing (NDVI, snow cover, bird tracking)</li>
-                <li>Climate Modeling (EC-Earth3, NEMO-PISCES)</li>
-                <li>BASH, R (intermediate), SQL, HTML (basic)</li>
-                <li>QGIS, Linux, Git, NetCDF workflows</li>
-            </ul>
-        </div>
-    </section>
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>MSc Marine Sciences</strong>, Utrecht University — 2016–2018</li>
+        <li><strong>BSc Food Science & Technology</strong>, Agricultural University of Athens — 2001–2006</li>
+      </ul>
+    </div>
+  </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:nomikos.skyllas@gmail.com">nomikos.skyllas@gmail.com</a></p>
-            <p>Location: Utrecht, Netherlands</p>
-            <p>Phone: +31 617610656</p>
-            <p>
-                <a href="https://github.com/NSkyllas" target="_blank">GitHub</a> |
-                <a href="https://www.linkedin.com/in/nomikos-skyllas" target="_blank">LinkedIn</a> |
-                <a href="https://scholar.google.nl/citations?user=HnM_-lwAAAAJ&hl=en" target="_blank">Google Scholar</a>
-            </p>
-        </div>
-    </section>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Seabird Flyway Model</strong>: Simulated migration patterns using wind, effort, and remote sensing.</li>
+        <li><strong>Green Wave Index</strong>: Estimated nutrient peaks in Arctic ecosystems from vegetation data.</li>
+        <li><strong>Arctic Climate Extremes</strong>: Assessed rainfall/snow cover changes under future scenarios.</li>
+      </ul>
+    </div>
+  </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Nomikos Skyllas. All rights reserved.</p>
-        </div>
-    </footer>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python (Xarray, Pandas, Matplotlib, Scikit-learn)</li>
+        <li>GIS & Remote Sensing (NDVI, snow cover, bird tracking)</li>
+        <li>Climate Modeling (EC-Earth3, NEMO-PISCES)</li>
+        <li>BASH, R (intermediate), SQL, HTML (basic)</li>
+        <li>QGIS, Linux, Git, NetCDF workflows</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:nomikos.skyllas@gmail.com">nomikos.skyllas@gmail.com</a></p>
+      <p>Location: Utrecht, Netherlands</p>
+      <p>Phone: +31 617610656</p>
+      <p>
+        <a href="https://github.com/NSkyllas" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/nomikos-skyllas" target="_blank">LinkedIn</a> |
+        <a href="https://scholar.google.nl/citations?user=HnM_-lwAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Nomikos Skyllas. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
