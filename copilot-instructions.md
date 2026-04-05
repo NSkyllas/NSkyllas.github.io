@@ -47,6 +47,7 @@ Root:
 - flyway-model.html
 - arctic-climate.html
 - ecological-modelling.html
+- arctic-terns.html
 
 /assets/css/
 - style.css
@@ -153,6 +154,12 @@ For each project:
 - 1–2 line description
 - Link to project page
 
+The site currently uses four projects:
+- Flyway model
+- Arctic climate & seasonal timing
+- Vegetation timing and nutrient peaks
+- Arctic tern wind strategies
+
 ---
 
 ### Project pages (/projects/*.html)
@@ -211,6 +218,7 @@ Minimal:
 Examples:
 - flyway-model.html
 - arctic-climate.html
+- arctic-terns.html
 
 ---
 

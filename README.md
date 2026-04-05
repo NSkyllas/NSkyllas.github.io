@@ -2,6 +2,20 @@
 
 Static portfolio/CV website for GitHub Pages.
 
+## Site structure
+
+Root pages:
+- `index.html`
+- `projects.html`
+- `cv.html`
+- `contact.html`
+
+Project pages:
+- `projects/flyway-model.html`
+- `projects/arctic-climate.html`
+- `projects/ecological-modelling.html`
+- `projects/arctic-terns.html`
+
 ## Local editing
 
 Open [index.html](/Users/nomikosskyllas/Documents/GIT/NSkyllas.github.io/index.html) in a browser, or run a small local server from this folder:
@@ -23,7 +37,3 @@ Then visit `http://localhost:8000`.
 For a repository named `NSkyllas.github.io`, the site URL should be:
 
 `https://nskyllas.github.io/`
-
-## Optional next step
-
-If you want a downloadable CV button, add your PDF file to this repo and update the hero link in [index.html](/Users/nomikosskyllas/Documents/GIT/NSkyllas.github.io/index.html).

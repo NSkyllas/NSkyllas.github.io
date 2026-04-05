@@ -9,22 +9,26 @@ I am particularly interested in migratory systems, where large-scale atmospheric
 ## What I do
 - Develop data-driven models linking climate and ecology  
 - Analyse large environmental datasets (climate, satellite, tracking data)  
-- Translate ecological questions into quantitative frameworks  
-- Evaluate assumptions, uncertainty, and model behaviour  
+- Translate ecological questions into clear quantitative frameworks  
 
 ## Selected projects
 
 ### Flyway model
-A mechanistic model that simulates migratory routes by balancing environmental constraints such as wind, distance, and energy use.
+A model that simulates seabird flyways using wind, distance, and food availability, then compares the results with tracking data.
 
 → View project
 
-### Arctic climate & trophic mismatch
-Analysis of how shifts in snowmelt and vegetation timing affect the seasonal window available for Arctic migratory birds.
+### Arctic climate & seasonal timing
+Analysis of how warming, snow cover, and rainfall extremes are changing the reproductive window for Arctic-breeding birds.
 
 → View project
 
-### Applied ecological modelling
-Data-driven analyses in a consultancy context, supporting ecological decision-making with transparent and reproducible methods.
+### Vegetation timing and nutrient peaks
+Satellite and climate-data analysis used to estimate when Arctic vegetation reaches key growth stages and how that may change in the future.
+
+→ View project
+
+### Arctic tern wind strategies
+A comparison of Dutch and Svalbard Arctic terns to understand how different populations respond to wind along the Atlantic flyway.
 
 → View project

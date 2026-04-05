@@ -16,6 +16,8 @@ TASK
    - contact.html
    - /projects/flyway-model.html
    - /projects/arctic-climate.html
+   - /projects/ecological-modelling.html
+   - /projects/arctic-terns.html
 
 2. Convert the markdown content into clean semantic HTML
 

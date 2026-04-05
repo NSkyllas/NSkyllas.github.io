@@ -1,51 +1,38 @@
 # Arctic climate change & seasonal timing
-Shifts in environmental conditions during the reproductive season
+How warming, snow loss, and rainfall extremes are reshaping the Arctic breeding season
 
 ## Context
-Arctic ecosystems are strongly seasonal. Migratory birds depend on a short window in which conditions are suitable for breeding and raising offspring.
+Arctic birds depend on a short snow-free season to breed and raise chicks. Small shifts in timing can change whether that season is favourable or difficult.
 
-This window is determined by environmental processes such as snowmelt, temperature, and vegetation growth. Changes in the timing of these processes can affect whether birds arrive too early or too late.
+The project focused on how temperature, snow cover, and rainfall affect this breeding window, and how those conditions are changing across the Arctic.
 
 ## Approach
-I analysed climate model data together with satellite-derived vegetation data to quantify how key seasonal events are shifting over time.
+I combined ERA5 reanalysis, CMIP6 climate-model output, and long EC-Earth simulations to study present and future Arctic conditions.
 
-The focus was on:
-- **Snowmelt timing** (when snow cover drops below a threshold)
-- **Vegetation development** (using NDVI as a proxy for food availability)
-- **Temperature and rainfall patterns during the breeding season**
-
-The analysis combines historical data with future climate projections to assess both current variability and expected changes.
+The analysis tracked snowmelt, snow return, warming, and rainfall extremes across regions that are important for Arctic-breeding birds.
 
 ## Key components
-- **Snow cover (snowmelt timing)**  
-  Determines when breeding areas become accessible.
+- **Snow cover**  
+  When snow clears, breeding areas become available.
 
-- **Vegetation dynamics (NDVI)**  
-  Indicates the timing of peak food availability.
+- **Snow return**  
+  Early return can shorten the useful season.
 
 - **Temperature**  
-  Influences development rates and breeding conditions.
+  Warmer conditions change the pace of seasonal development.
 
-- **Rainfall**  
-  Affects foraging conditions and chick survival.
+- **Rainfall extremes**  
+  Heavy rain can create difficult breeding conditions even in a longer season.
 
 ## Results
-The results show that seasonal timing is shifting, but not always in a synchronized way.
+The snow-free season tends to become longer because snow melts earlier and returns later.
 
-In many regions:
-- Snowmelt occurs earlier  
-- Vegetation peaks also shift, but at different rates  
-
-This creates a **mismatch in timing**, reducing the overlap between when birds need food and when it is available.
-
-In addition, variability and extreme conditions increase, making the timing less predictable.
+At the same time, rainfall extremes become more frequent and stronger. This means that a longer season does not automatically mean a better season.
 
 ## Why it matters
-Migratory birds rely on precise timing to match breeding with peak food availability. Even small shifts can reduce reproductive success.
+Birds do not respond only to average warming. They also have to cope with unreliable conditions and more extreme weather during breeding.
 
-By quantifying how these seasonal processes change, this work helps identify where and when migratory species are most vulnerable to climate change.
-
-It also shows that average changes alone are not enough — variability and extremes play a key role.
+This project helps identify where climate change may open opportunities and where it may create new risks for Arctic-breeding species.
 
 ## Tools
 Python, xarray, climate model data (CMIP6), ERA5 reanalysis, satellite data (NDVI)
