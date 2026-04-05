@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Flyway model project by Nomikos Skyllas."
+  />
+  <title>Nomikos Skyllas | Flyway Model</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <nav aria-label="Primary">
+      <a href="../index.html">Home</a>
+      <a href="../projects.html">Projects</a>
+      <a href="../cv.html">CV</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Flyway model</h1>
+      <p>Simulating migratory routes under environmental constraints.</p>
+    </section>
+
+    <section>
+      <h2>Context</h2>
+      <p>
+        Migratory birds travel thousands of kilometres between breeding and wintering
+        areas. These journeys are not random. Birds must balance time, energy use, and
+        environmental conditions such as wind and food availability.
+      </p>
+      <p>
+        The question is how these large-scale migration routes emerge from those
+        constraints.
+      </p>
+    </section>
+
+    <section>
+      <h2>Approach</h2>
+      <p>
+        I developed a mechanistic model that simulates migration as an optimisation
+        problem. Instead of prescribing routes, the model allows routes to emerge based
+        on environmental conditions and movement costs.
+      </p>
+      <p>
+        At each step, the model evaluates possible directions and selects the path that
+        minimises a defined cost.
+      </p>
+    </section>
+
+    <section>
+      <h2>Key components</h2>
+      <ul>
+        <li><strong>Wind support:</strong> Tailwinds reduce energy costs, while headwinds increase them.</li>
+        <li><strong>Crosswind:</strong> Strong crosswinds can push birds off course and increase travel distance.</li>
+        <li><strong>Distance:</strong> Shorter routes are generally preferred, but may not always be optimal under atmospheric conditions.</li>
+        <li><strong>Food availability:</strong> Stopover locations with higher food availability can offset longer travel distances.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Results</h2>
+      <p>
+        The model successfully reproduces observed migration patterns when compared with
+        tracking data.
+      </p>
+      <p>
+        It shows that different populations follow different strategies. Some optimise
+        for energy efficiency, while others optimise for travel time.
+      </p>
+    </section>
+
+    <section>
+      <h2>Why it matters</h2>
+      <p>
+        Understanding migration as an optimisation problem helps explain why birds follow
+        specific routes rather than simple shortest paths.
+      </p>
+      <p>
+        It also provides a framework to explore how migration may change under future
+        climate conditions, where wind patterns and resource availability are shifting.
+      </p>
+    </section>
+
+    <section>
+      <h2>Tools</h2>
+      <p>Python, xarray, geospatial data processing, climate reanalysis data, tracking data.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nomikos Skyllas</p>
+  </footer>
+</body>
+</html>
