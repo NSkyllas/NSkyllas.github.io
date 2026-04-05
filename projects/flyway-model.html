@@ -23,66 +23,67 @@
   <main>
     <section class="page-intro">
       <h1>Flyway model</h1>
-      <p class="lead">Simulating migratory routes under environmental constraints.</p>
+      <p class="lead">Simulating seabird migration routes with wind, distance, and food as guiding factors.</p>
     </section>
 
     <section>
       <h2>Context</h2>
       <p>
-        Migratory birds travel thousands of kilometres between breeding and wintering
-        areas. These journeys are not random. Birds must balance time, energy use, and
-        environmental conditions such as wind and food availability.
+        Migratory birds do not simply follow the shortest route. They move through an
+        atmosphere that can help or hinder them, and they also need access to productive
+        stopover areas.
       </p>
       <p>
-        The question is how these large-scale migration routes emerge from those
-        constraints.
+        This project asked a simple question: can we explain real flyways by combining a
+        few key environmental costs?
       </p>
     </section>
 
     <section>
       <h2>Approach</h2>
       <p>
-        I developed a mechanistic model that simulates migration as an optimisation
-        problem. Instead of prescribing routes, the model allows routes to emerge based
-        on environmental conditions and movement costs.
+        I built a least-cost path model that simulates many possible flyways. Each route
+        is scored using wind support, crosswind, travel distance, and food availability.
       </p>
       <p>
-        At each step, the model evaluates possible directions and selects the path that
-        minimises a defined cost.
+        I then compared the simulated routes with tracking data from Arctic terns to see
+        which combinations of costs best matched the observed migrations.
       </p>
     </section>
 
     <section>
       <h2>Key components</h2>
       <ul>
-        <li><strong>Wind support:</strong> Tailwinds reduce energy costs, while headwinds increase them.</li>
-        <li><strong>Crosswind:</strong> Strong crosswinds can push birds off course and increase travel distance.</li>
-        <li><strong>Distance:</strong> Shorter routes are generally preferred, but may not always be optimal under atmospheric conditions.</li>
-        <li><strong>Food availability:</strong> Stopover locations with higher food availability can offset longer travel distances.</li>
+        <li><strong>Wind support:</strong> tailwinds make migration easier, headwinds make it harder.</li>
+        <li><strong>Crosswind:</strong> side winds can push birds away from their preferred route.</li>
+        <li><strong>Distance:</strong> shorter routes often save time and energy.</li>
+        <li><strong>Food availability:</strong> productive ocean regions can make longer routes worthwhile.</li>
       </ul>
     </section>
 
     <section>
       <h2>Results</h2>
       <p>
-        The model successfully reproduces observed migration patterns when compared with
-        tracking data.
+        The model reproduced the main flyway patterns seen in the tracking data. It also
+        showed that different Arctic tern populations seem to solve migration in
+        different ways.
       </p>
       <p>
-        It shows that different populations follow different strategies. Some optimise
-        for energy efficiency, while others optimise for travel time.
+        The Svalbard population was better explained by effort-saving routes shaped
+        strongly by wind, while the Dutch population was better explained by routes that
+        balance time, distance, and food.
       </p>
     </section>
 
     <section>
       <h2>Why it matters</h2>
       <p>
-        Understanding migration as an optimisation problem helps explain why birds follow
-        specific routes rather than simple shortest paths.
+        This helps explain why birds use certain ocean flyways instead of simply flying
+        along the shortest line between two points.
       </p>
       <p>
-        It also provides a framework to explore how migration may change under future
-        climate conditions, where wind patterns and resource availability are shifting.
+        It also provides a practical framework for asking how migration routes may shift
+        when wind patterns and marine productivity change.
       </p>
     </section>
 
